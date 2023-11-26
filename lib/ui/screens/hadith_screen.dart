@@ -31,10 +31,18 @@ class HadithPage extends StatelessWidget {
               shape: const BeveledRectangleBorder(
                 borderRadius: BorderRadius.only(),
               ),
-              title: Row(
+              title: Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(book.title),
-                  Text(chapter.title),
+                  Text(
+                    book.title,
+                    style: TextStyle(fontSize: 20),
+                  ),
+                  Text(
+                    chapter.title,
+                    style: TextStyle(fontSize: 12),
+                  ),
                 ],
               ),
               floating: true,
