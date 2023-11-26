@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'database.dart';
-import 'screens/books_screen.dart';
+import 'data/database/database.dart';
+import 'ui/screens/books_screen.dart';
 
 void main() async {
   await ScreenUtil.ensureScreenSize();
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         return GetMaterialApp(
           theme: ThemeData(primaryColor: const Color.fromARGB(1, 26, 164, 131)),
           debugShowCheckedModeBanner: false,
-          home: BooksScreen(),
+          home: const BooksScreen(),
         );
       },
     );
