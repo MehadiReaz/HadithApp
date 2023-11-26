@@ -31,7 +31,12 @@ class HadithPage extends StatelessWidget {
               shape: const BeveledRectangleBorder(
                 borderRadius: BorderRadius.only(),
               ),
-              title: Text('Hadiths for ${chapter.title}'),
+              title: Row(
+                children: [
+                  Text(book.title),
+                  Text(chapter.title),
+                ],
+              ),
               floating: true,
               snap: true,
               pinned: false,
