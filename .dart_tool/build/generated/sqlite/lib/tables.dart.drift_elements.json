@@ -1,0 +1,1 @@
+{"valid_import":true,"imports":[{"uri":"package:drift/drift.dart","transitive":false}],"elements":[{"kind":"table","name":"books","dart_name":"Books"},{"kind":"table","name":"chapter","dart_name":"Chapter"},{"kind":"table","name":"hadith","dart_name":"Hadith"},{"kind":"table","name":"section","dart_name":"Section"}]}

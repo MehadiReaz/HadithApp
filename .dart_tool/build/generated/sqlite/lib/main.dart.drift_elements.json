@@ -1,0 +1,1 @@
+{"valid_import":true,"imports":[{"uri":"package:flutter/material.dart","transitive":false},{"uri":"package:flutter_screenutil/flutter_screenutil.dart","transitive":false},{"uri":"package:get/get.dart","transitive":false},{"uri":"package:sqlite/database.dart","transitive":false},{"uri":"package:sqlite/screens/books_screen.dart","transitive":false}],"elements":[]}
