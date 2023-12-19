@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "D:\\Flutter Practice\\sqlite\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "D:\\Flutter Projects\\idr-foundation_test\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
